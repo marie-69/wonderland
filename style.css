@@ -1,0 +1,11 @@
+.navbar{
+    background-color: #222;
+}
+
+a{
+    font-family: 'MuseoModerno', cursive; 
+}
+
+.navbar-brand{
+    margin: 0 3%;
+}
