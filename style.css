@@ -1,11 +1,132 @@
-.navbar{
+/*header*/
+
+header{
     background-color: #222;
+    margin: 0;
+    padding: 0;
 }
 
 a{
-    font-family: 'MuseoModerno', cursive; 
+    /*font-family: 'MuseoModerno', cursive;*/
+    font-family: 'Open Sans', sans-serif;
 }
 
 .navbar-brand{
     margin: 0 3%;
 }
+
+h1{
+    text-align: center;
+    /*background:rgba(0, 0, 0, 0.9);*/
+    font-family: 'MuseoModerno', cursive;
+    font-size: 4.5vw;
+    background-image: linear-gradient(to right, #3fb6ce, #baeaf4 55%, #f4baf0 40%, #dd1137);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text
+    /*color: #dd1137;*/
+    
+}
+
+.container-fluid{
+    background-color: #222;
+    margin: 0;
+    padding: 0;
+}
+
+/*carousel*/
+
+
+.slide{
+   /* padding-bottom: 2%;*/
+    background-color: #222;
+}
+
+hr{
+    background-color: white;
+    height: 7px;
+}
+
+/*présentation*/
+
+
+.exemples{
+    padding-bottom: 10%;
+}
+
+h2{
+    margin: auto;
+    padding: 3%;
+    font-size: 2vw;
+    font-family: 'Open Sans', sans-serif;
+    color: #baeaf4;
+    text-shadow: 1px 1px 2px #baeaf4;
+    text-align: center;
+    width: 40em;
+
+
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background: linear-gradient(90deg, #baeaf4, #000, #baeaf4);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 3s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+      
+    @keyframes animate {
+    0% {
+        background-position: -500%;
+    }
+    100% {
+        background-position: 500%;
+    }
+    }
+
+
+.card{
+
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    width: 25rem;
+   
+}
+
+.angle1{
+    display:flex;
+    justify-content:space-between;
+    background: url('afood.png') no-repeat center center;
+    background-size: cover;
+    height: 15rem;
+}
+
+.angle2{
+    display:flex;
+    justify-content:space-between;
+    background: url('ifood.jpg') no-repeat center center;
+    background-size: cover;
+    height: 15rem;
+}
+
+.angle3{
+    display:flex;
+    justify-content:space-between;
+    background: url('rfood.jpg') no-repeat center center;
+    background-size: cover;
+    height: 15rem;
+}
+
+.image-coin{
+    width:8vw;
+    height:6vw;
+    border-radius: 10px;
+    box-shadow: 0 15px 50px #222;
+    border: 3px solid white;
+}
+
+
