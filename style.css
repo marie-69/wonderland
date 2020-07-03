@@ -296,3 +296,92 @@ hr{
     box-shadow: 0 15px 50px #222; 
 }
 
+/*préstations*/
+
+.parallax2 {
+    /* The image used */
+    background: url('wedvan.png');
+  
+    /* Full height */
+    height: 50em;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+    /* Full height */
+    height: 50em;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.quisuisje{
+    padding: 0 5% 3% 5%;
+    background-color: #222;
+}
+
+.wedding{
+    padding: 5%;
+    font-family: 'Open Sans', sans-serif;
+    color: #baeaf4;
+    text-align: center;
+}
+
+.image3{
+    background-image: url('wedcake.jpg');
+    background-size: cover;
+    height: 20em;
+}
+
+.image4{
+    background-image: url('wedding.jpg');
+    background-size: cover;
+    height: 20em;
+}
+
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: transparent;
+    border: 2px solid #dd1137;
+    color: #dd1137;
+    text-align: center;
+    font-size: 1.7vw;
+    padding: 2px;
+    width: 10em;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
