@@ -1,3 +1,9 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
 /*header*/
 
 header{
@@ -16,15 +22,14 @@ a{
 }
 
 h1{
+    margin-bottom: 0;
     text-align: center;
-    /*background:rgba(0, 0, 0, 0.9);*/
     font-family: 'MuseoModerno', cursive;
     font-size: 4.5vw;
     background-image: linear-gradient(to right, #3fb6ce, #baeaf4 55%, #f4baf0 40%, #dd1137);
     color: transparent;
     -webkit-background-clip: text;
     background-clip: text
-    /*color: #dd1137;*/
     
 }
 
@@ -42,25 +47,24 @@ h1{
     background-color: #222;
 }
 
-hr{
-    background-color: white;
-    height: 7px;
-}
-
-/*présentation*/
+/*exemples*/
 
 
 .exemples{
     padding-bottom: 10%;
 }
 
-h2{
+.merveilles{
+    background-color: #222;
+}
+
+.open{
     margin: auto;
     padding: 3%;
     font-size: 2vw;
     font-family: 'Open Sans', sans-serif;
     color: #baeaf4;
-    text-shadow: 1px 1px 2px #baeaf4;
+    text-shadow: 1px 1px 1px #baeaf4;
     text-align: center;
     width: 40em;
 
@@ -89,7 +93,7 @@ h2{
 
 .card{
 
-    margin:auto;
+    margin:auto auto 3% auto;
     display:flex;
     flex-direction:column;
     justify-content:space-between;
@@ -129,4 +133,103 @@ h2{
     border: 3px solid white;
 }
 
+/* a propos*/
 
+.parallax {
+    /* The image used */
+    background: url('macaron.jpg');
+  
+    /* Full height */
+    height: 50em;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .presentation, .col-md-1{
+      background-color: #222;
+      padding-bottom: 5%;
+  }
+
+  .museo{
+    margin: auto;
+    padding-top: 3%;
+    font-size: 3vw;
+    font-family: 'MuseoModerno', cursive;
+    color: #baeaf4;
+    text-shadow: 1px 1px 1px #baeaf4;
+    text-align: center;
+ 
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background: linear-gradient(90deg, #baeaf4, #000, #baeaf4);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 3s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+      
+    @keyframes animate {
+    0% {
+        background-position: -500%;
+    }
+    100% {
+        background-position: 500%;
+    }
+    }
+
+    .quisuisje{
+        padding: 0 5% 3% 5%;
+        background-color: #222;
+    }
+
+    h3{
+        font-family: 'MuseoModerno', cursive;
+        text-align: center;
+        color: #baeaf4;
+    }
+
+    hr{
+        background-color:#dd1137 ;
+        width: 60px;
+        height: 2px;
+    }
+
+    p{
+        font-family: 'Open Sans', sans-serif;
+        color: #baeaf4;
+        text-align: center;
+    }
+
+    .moi{
+        padding: 5%;
+    }
+
+    .image{
+        background-image: url('foodtruck.jpg');
+        background-size: cover;
+        height: 30em;
+    }
+
+    /*footer*/
+
+    footer{
+        background-color: rgb(54, 54, 54);
+    }
+
+    .footer{
+        margin-bottom: 0;
+        text-align: center;
+        font-family: 'MuseoModerno', cursive;
+        font-size: 2vw;
+        background-image: linear-gradient(to right, #3fb6ce, #baeaf4 30%, #dd1137);
+        color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text
+    }
