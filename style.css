@@ -33,7 +33,7 @@ h1{
     
 }
 
-.container-fluid{
+.premier{
     background-color: #222;
     margin: 0;
     padding: 0;
@@ -92,7 +92,6 @@ h1{
 
 
 .card{
-
     margin:auto auto 3% auto;
     display:flex;
     flex-direction:column;
@@ -133,6 +132,23 @@ h1{
     border: 3px solid white;
 }
 
+    /*footer*/
+
+footer{
+     background-color: rgb(54, 54, 54);
+}
+
+.footer{
+     margin-bottom: 0;
+    text-align: center;
+    font-family: 'MuseoModerno', cursive;
+    font-size: 2vw;
+    background-image: linear-gradient(to right, #3fb6ce, #baeaf4 30%, #dd1137);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text
+}
+
 /* a propos*/
 
 .parallax {
@@ -147,14 +163,14 @@ h1{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
+}
 
-  .presentation, .col-md-1{
-      background-color: #222;
-      padding-bottom: 5%;
-  }
+.presentation, .col-md-1{
+    background-color: #222;
+    padding-bottom: 5%;
+}
 
-  .museo{
+.museo{
     margin: auto;
     padding-top: 3%;
     font-size: 3vw;
@@ -184,52 +200,99 @@ h1{
     }
     }
 
-    .quisuisje{
-        padding: 0 5% 3% 5%;
-        background-color: #222;
+.quisuisje{
+    padding: 0 5% 3% 5%;
+    background-color: #222;
+}
+
+h3{
+    font-family: 'MuseoModerno', cursive;
+    text-align: center;
+    color: #baeaf4;
+}
+
+hr{
+    background-color:#dd1137 ;
+    width: 60px;
+    height: 2px;
+}
+
+.moi{
+    padding: 5%;
+    font-family: 'Open Sans', sans-serif;
+    color: #baeaf4;
+    text-align: center;
+}
+
+.image{
+    background-image: url('foodtruck.jpg');
+    background-size: cover;
+    height: 30em;
+}
+
+    /*Nos Merveilles*/
+
+.florilege{
+    background-color: rgb(230, 230, 230);
+    padding: 5% 0;
+}
+
+.petit{
+    margin: auto;
+    padding-top: 3%;
+    font-size: 2.2vw;
+    font-family: 'Open Sans', sans-serif;
+    color: #baeaf4;
+    text-shadow: 1px 1px 1px #dd1137;
+    text-align: center;
+    width: 35em;
+ 
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background: linear-gradient(90deg, #baeaf4, #222, #baeaf4);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 3s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+      
+    @keyframes animate {
+    0% {
+        background-position: -500%;
+    }
+    100% {
+        background-position: 500%;
+    }
     }
 
-    h3{
-        font-family: 'MuseoModerno', cursive;
-        text-align: center;
-        color: #baeaf4;
-    }
+.dessert{
+    background-color: rgb(230, 230, 230);
+    margin: auto;
+    padding-bottom: 7%;
+}
 
-    hr{
-        background-color:#dd1137 ;
-        width: 60px;
-        height: 2px;
-    }
+.dessert .card .gateau:hover{
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+     -ms-transform: scale(1.5);
+      -o-transform: scale(1.5);
+         transform: scale(1.5);
+}
 
-    p{
-        font-family: 'Open Sans', sans-serif;
-        color: #baeaf4;
-        text-align: center;
-    }
+.dessert .card .gateau{
+    -webkit-transition: all .5s cubic-bezier( .6, 2, .4, 1);
+    -moz-transition: all .5s cubic-bezier( .6, 2, .4, 1);
+     -ms-transition: all .5s cubic-bezier( .6, 2, .4, 1);
+      -o-transition: all .5s cubic-bezier( .6, 2, .4, 1);
+         transition: all .5s cubic-bezier( .6, 2, .4, 1); 
+}
 
-    .moi{
-        padding: 5%;
-    }
+.dessert .card{
+    padding: 0;
+    border-radius: 10px;
+    box-shadow: 0 15px 50px #222; 
+}
 
-    .image{
-        background-image: url('foodtruck.jpg');
-        background-size: cover;
-        height: 30em;
-    }
-
-    /*footer*/
-
-    footer{
-        background-color: rgb(54, 54, 54);
-    }
-
-    .footer{
-        margin-bottom: 0;
-        text-align: center;
-        font-family: 'MuseoModerno', cursive;
-        font-size: 2vw;
-        background-image: linear-gradient(to right, #3fb6ce, #baeaf4 30%, #dd1137);
-        color: transparent;
-        -webkit-background-clip: text;
-        background-clip: text
-    }
