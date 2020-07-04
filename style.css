@@ -311,16 +311,7 @@ hr{
     background-repeat: no-repeat;
     background-size: cover;
 }
-  
-    /* Full height */
-    height: 50em;
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+
 
 .quisuisje{
     padding: 0 5% 3% 5%;
