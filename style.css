@@ -232,7 +232,7 @@ hr{
 
     /*Nos Merveilles*/
 
-.florilege{
+.titre{
     background-color: rgb(230, 230, 230);
     padding: 5% 0;
 }
@@ -268,13 +268,13 @@ hr{
     }
     }
 
-.dessert{
+.contenu{
     background-color: rgb(230, 230, 230);
     margin: auto;
     padding-bottom: 7%;
 }
 
-.dessert .card .gateau:hover{
+.contenu .card .gateau:hover{
     -webkit-transform: scale(1.5);
     -moz-transform: scale(1.5);
      -ms-transform: scale(1.5);
@@ -282,7 +282,7 @@ hr{
          transform: scale(1.5);
 }
 
-.dessert .card .gateau{
+.contenu .card .gateau{
     -webkit-transition: all .5s cubic-bezier( .6, 2, .4, 1);
     -moz-transition: all .5s cubic-bezier( .6, 2, .4, 1);
      -ms-transition: all .5s cubic-bezier( .6, 2, .4, 1);
@@ -290,7 +290,7 @@ hr{
          transition: all .5s cubic-bezier( .6, 2, .4, 1); 
 }
 
-.dessert .card{
+.contenu .card{
     padding: 0;
     border-radius: 10px;
     box-shadow: 0 15px 50px #222; 
@@ -376,3 +376,22 @@ hr{
     opacity: 1;
     right: 0;
   }
+
+/*nous trouver*/
+
+.jumbotron {
+    background: url('plan.jpg');
+    background-size: cover; 
+    opacity: 0.5;
+    height: 60em;
+
+}
+
+
+.direction {
+    width: 80%;
+    padding: 0;
+    border-radius: 10px;
+    box-shadow: 0 15px 50px #222;
+    margin: 10%;
+}
