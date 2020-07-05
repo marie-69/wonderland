@@ -224,8 +224,14 @@ hr{
     text-align: center;
 }
 
-.image{
+.image1{
     background-image: url('foodtruck.jpg');
+    background-size: cover;
+    height: 30em;
+}
+
+.image2{
+    background-image: url('sio1.jpg');
     background-size: cover;
     height: 30em;
 }
@@ -237,7 +243,7 @@ hr{
     padding: 5% 0;
 }
 
-.petit{
+.petit {
     margin: auto;
     padding-top: 3%;
     font-size: 2.2vw;
@@ -382,16 +388,35 @@ hr{
 .jumbotron {
     background: url('plan.jpg');
     background-size: cover; 
-    opacity: 0.5;
     height: 60em;
-
+    margin-bottom: 0;
 }
 
-
 .direction {
-    width: 80%;
+    width: 100%;
     padding: 0;
     border-radius: 10px;
-    box-shadow: 0 15px 50px #222;
+    box-shadow: 0 35px 75px #222;
     margin: 10%;
+}
+
+.card-title{
+    margin: auto;
+    padding-top: 3%;
+    font-size: 2.2vw;
+    font-family: 'Open Sans', sans-serif;
+    color: #baeaf4;
+    text-shadow: 1px 1px 1px #dd1137;
+    text-align: center;
+ 
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background: linear-gradient(90deg, #baeaf4, #222, #baeaf4);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 3s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
 }
