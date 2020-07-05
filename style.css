@@ -383,6 +383,12 @@ hr{
     right: 0;
   }
 
+  .button:hover{
+      color: #baeaf4;
+      background-color: #222;
+      border: 2px solid #baeaf4;
+  }
+
 /*nous trouver*/
 
 .jumbotron {
