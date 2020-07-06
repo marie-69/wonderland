@@ -25,7 +25,7 @@ h1{
     margin-bottom: 0;
     text-align: center;
     font-family: 'MuseoModerno', cursive;
-    font-size: 4.5vw;
+    font-size: 7vmin;
     background-image: linear-gradient(to right, #3fb6ce, #baeaf4 55%, #f4baf0 40%, #dd1137);
     color: transparent;
     -webkit-background-clip: text;
@@ -140,7 +140,7 @@ footer{
 
 .footer{
      margin-bottom: 0;
-    text-align: center;
+    /*text-align: center;*/
     font-family: 'MuseoModerno', cursive;
     font-size: 2vw;
     background-image: linear-gradient(to right, #3fb6ce, #baeaf4 30%, #dd1137);
@@ -300,6 +300,7 @@ hr{
     padding: 0;
     border-radius: 10px;
     box-shadow: 0 15px 50px #222; 
+    font-family: 'Open Sans', sans-serif;
 }
 
 /*préstations*/
@@ -425,4 +426,103 @@ hr{
     animation: animate 3s linear infinite;
     -webkit-background-clip: text;
     -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+.parallax3{
+    /* The image used */
+    background: url('dessert.jpg');
+      
+    /* Full height */
+    height: 50em;
+      
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact{
+    width: 60%;
+    /* margin:auto; */
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.info {
+    margin:auto;
+    padding: 3%;
+    font-size: 5vmin;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    color: #baeaf4;
+    text-shadow: 1px 1px 1px #dd1137;
+    text-align: center;
+    /*width: 35em;*/
+ 
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background: linear-gradient(90deg, #baeaf4, #222, #baeaf4);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 3s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+.renseignement{
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 2%;
+}
+
+.tel{
+    font-size: 3vmin;
+}
+
+.mail{
+    font-family: 'MuseoModerno', cursive;
+    font-size: 3vmin;
+    color: #dd1137;
+}
+
+/*formulaire*/
+
+.message{
+    margin-bottom: 0;
+    padding: 2%;
+    text-align: center;
+    font-family: 'MuseoModerno', cursive;
+    font-size: 5vmin;
+    background-image: linear-gradient(to right, #3fb6ce, #baeaf4 55%, #f4baf0 40%, #dd1137);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text
+}
+
+.col-lg-8{
+    padding: 0 0 3% 0;
+
+    text-align: center;
+}
+
+.col-lg-8 input{
+    width: 70%;
+    background-color: #222;
+    border: none;
+    border-bottom: #3fb6ce 1px solid;
+    padding: 3%;
+}
+
+.text, .choose{
+    width: 70%;
+    background-color: #222;
+    border: #3fb6ce 1px solid;
+    padding: 3%;
+    margin-top: 2%;
+}
+
+#inputState{
+    color: #c3c5c5;
 }

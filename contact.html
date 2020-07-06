@@ -11,49 +11,121 @@
     <link href="https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 
-    <title>Hello, world!</title>
+    <title>Contact</title>
   </head>
 
-  <body>
+  <body class="parallax3">
     
-           <!--menu-->
-           <header>
-            <nav class="navbar navbar-expand-sm navbar-dark">
-              <div>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <!--<img src="logo3.png" width="75" height="50" class="d-md-none align-top" alt="">-->
+ <!--menu-->
+ <header>
+  <nav class="navbar navbar-expand-sm navbar-dark">
+    <div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!--<img src="logo3.png" width="75" height="50" class="d-md-none align-top" alt="">-->
+    </div>
+    <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+      <ul class="nav">
+          <li class="nav-item-active">
+            <a class="nav-link text-white" href="index.html">Accueil<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="apropos.html">A propos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="nosmerveilles.html">Nos Merveilles</a>
+          </li>
+      </ul>
+
+          <a class="navbar-brand d-none d-md-block" href="index.html">
+            <img src="logo3.png" width="150" height="100" class="d-inline-block align-top" alt="" loading="lazy">
+          </a>
+
+      <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link text-white" href="prestations.html">Prestations</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="noustrouver.html">Nous trouver</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="contact.html">Contact</a>
+          </li>
+        </ul>
+    </div>    
+    </nav>
+    <h1>WONDERLAND</h1>
+</header>
+
+          <div class=" ">
+
+            <div class="row justify-content-center mt-5 mb-5">
+              <div class="col-lg-6 contact renseignement">
+                <h2 class="info">Contactez-nous</h2>
+                <hr>
+                <p>Pour toute demande de renseignement ou de devis, nous vous invitons à nous contacter soit par téléphone soit par email</p>
+                <p class="tel">06 00 00 00 00 > <span class="mail">foodtruck.wonderland@gmail.com</span></p>
+                <p>ou tout simplement en remplissant le formulaire ci-dessous.</p>
+            
               </div>
-              <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-                <ul class="nav">
-                    <li class="nav-item-active">
-                      <a class="nav-link text-white" href="index.html">Accueil<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link text-white" href="apropos.html">A propos</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link text-white" href="nosmerveilles.html">Nos Merveilles</a>
-                    </li>
-                </ul>
-      
-                    <a class="navbar-brand d-none d-md-block" href="index.html">
-                      <img src="logo3.png" width="150" height="100" class="d-inline-block align-top" alt="" loading="lazy">
-                    </a>
-      
-                <ul class="nav">
-                    <li class="nav-item">
-                      <a class="nav-link text-white" href="prestations.html">Prestations</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link text-white" href="noustrouver.html">Nous trouver</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link text-white" href="contact.html">Contact</a>
-                    </li>
-                  </ul>
-              </div>    
-              </nav>
-              <h1>WONDERLAND</h1>
-          </header>
+            </div>
+        
+            
+          </div>
+
+
+          
+ 
+
+          <!--formulaire-->
+
+          <div class="container-fluid premier">
+
+              <div class="row justify-content-center">
+                  
+                  <form class="col-lg-8">
+                      <h2 class="message">Laissez nous un message, et nous vous concocterons une proposition personnalisée.</h2>
+                      
+                      <input type="name" placeholder="Nom" name="name" id="name"> <br>
+                      
+                      <input type="email" placeholder="Email" name="email" id="email"> <br>
+
+                      <div class="form-group">
+                        <select id="inputState" class="choose">
+                          <option selected>Type d'événements</option>
+                          <option>Mariage</option>
+                          <option>Privé</option>
+                          <option>Foire/Salon</option>
+                          <option>Entreprise</option>
+                          <option>Association</option>
+                          <option>Autre</option>
+                        </select>
+                      </div>
+                      
+                      <div class="form-group">
+                        <textarea class="text" placeholder="Votre message..." id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div> <br>
+
+                      <a href="#" class="button btn-info" style="vertical-align:middle" role="button"><span>Envoyer</span></a>
+                   
+                    </form>
+              </div>
+
+          </div>
+
+               <!--footer-->
+          <footer>
+               <div class="row justify-content-start">
+                 <div class=""><img src="logo3.png" width="20%" alt="" loading="lazy"></div>
+                <div class="footer">Suivez nous !</div>
+               </div>
+          </footer>
+  
+      <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
