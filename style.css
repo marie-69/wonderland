@@ -149,6 +149,10 @@ footer{
     background-clip: text
 }
 
+icone{
+ padding: 30%;
+}
+
 /* a propos*/
 
 .parallax {
@@ -523,6 +527,3 @@ hr{
     margin-top: 2%;
 }
 
-#inputState{
-    color: #c3c5c5;
-}
