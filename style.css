@@ -61,12 +61,12 @@ h1{
 .open{
     margin: auto;
     padding: 3%;
-    font-size: 2vw;
+    font-size: 4vmin;
     font-family: 'Open Sans', sans-serif;
     color: #baeaf4;
     text-shadow: 1px 1px 1px #baeaf4;
     text-align: center;
-    width: 40em;
+    width: 80%;
 
 
     position: relative;
@@ -142,15 +142,30 @@ footer{
      margin-bottom: 0;
     /*text-align: center;*/
     font-family: 'MuseoModerno', cursive;
-    font-size: 2vw;
+    font-size: 3.5vmin;
     background-image: linear-gradient(to right, #3fb6ce, #baeaf4 30%, #dd1137);
     color: transparent;
     -webkit-background-clip: text;
     background-clip: text
 }
 
-icone{
- padding: 30%;
+.fab{
+ color: #dd1137;
+ font-size: 4.5vmin;
+ margin: auto 1%;
+}
+
+.far{
+    color: #dd1137;
+    font-size: 3vmin;
+    margin: auto 1%;
+   }
+
+.email{
+    color: #dd1137;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2vmin;
+    margin: auto 0;
 }
 
 /* a propos*/
@@ -527,3 +542,6 @@ hr{
     margin-top: 2%;
 }
 
+#inputState{
+    color: rgb(124, 124, 124);
+}
