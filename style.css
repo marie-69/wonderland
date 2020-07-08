@@ -197,7 +197,7 @@ footer{
 .museo{
     margin: auto;
     padding-top: 3%;
-    font-size: 3vw;
+    font-size: 6vmin;
     font-family: 'MuseoModerno', cursive;
     color: #baeaf4;
     text-shadow: 1px 1px 1px #baeaf4;
@@ -231,6 +231,7 @@ footer{
 
 h3{
     font-family: 'MuseoModerno', cursive;
+    font-size: 4.5vmin;
     text-align: center;
     color: #baeaf4;
 }
@@ -244,6 +245,7 @@ hr{
 .moi{
     padding: 5%;
     font-family: 'Open Sans', sans-serif;
+    font-size: 2.5vmin;
     color: #baeaf4;
     text-align: center;
 }
@@ -270,12 +272,12 @@ hr{
 .petit {
     margin: auto;
     padding-top: 3%;
-    font-size: 2.2vw;
+    font-size: 5vmin;
     font-family: 'Open Sans', sans-serif;
     color: #baeaf4;
     text-shadow: 1px 1px 1px #dd1137;
     text-align: center;
-    width: 35em;
+    width: 80%;
  
     position: relative;
     text-transform: uppercase;
@@ -434,7 +436,7 @@ hr{
 .card-title{
     margin: auto;
     padding-top: 3%;
-    font-size: 2.2vw;
+    font-size: 5vmin;
     font-family: 'Open Sans', sans-serif;
     color: #baeaf4;
     text-shadow: 1px 1px 1px #dd1137;
@@ -451,6 +453,20 @@ hr{
     -webkit-background-clip: text;
     -webkit-text-fill-color: rgba(255, 255, 255, 0);
 }
+
+.card-text{
+    font-size: 4vmin;
+    padding-top: 5%;
+    width: 80%;
+}
+
+.card-info{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.4vmin;
+    width: 80%; 
+}
+
+/*contact*/
 
 .parallax3{
     /* The image used */
@@ -482,7 +498,6 @@ hr{
     color: #baeaf4;
     text-shadow: 1px 1px 1px #dd1137;
     text-align: center;
-    /*width: 35em;*/
  
     position: relative;
     text-transform: uppercase;
