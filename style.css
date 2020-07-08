@@ -26,7 +26,7 @@ h1{
     text-align: center;
     font-family: 'MuseoModerno', cursive;
     font-size: 7vmin;
-    background-image: linear-gradient(to right, #3fb6ce, #baeaf4 55%, #f4baf0 40%, #dd1137);
+    background-image: linear-gradient(to right, #3fb6ce, #baeaf4 54%, #f4baf0 40%, #dd1137);
     color: transparent;
     -webkit-background-clip: text;
     background-clip: text
@@ -100,6 +100,11 @@ h1{
    
 }
 
+h4{
+    font-family: 'MuseoModerno', cursive;
+    color: #222;
+}
+
 .angle1{
     display:flex;
     justify-content:space-between;
@@ -111,7 +116,7 @@ h1{
 .angle2{
     display:flex;
     justify-content:space-between;
-    background: url('ifood.jpg') no-repeat center center;
+    background: url('tiramisu.jpg') no-repeat center center;
     background-size: cover;
     height: 15rem;
 }
