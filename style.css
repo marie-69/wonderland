@@ -49,6 +49,10 @@ h1{
 
 /*exemples*/
 
+.apercu{
+    width: 0;
+    height: 0;
+}
 
 .exemples{
     padding-bottom: 10%;
